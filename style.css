@@ -1,0 +1,13 @@
+body { margin: 0 }
+table { width: 100%; border: 1px solid #586368; }
+tr { }
+td { border: 1px solid 	#3c3f42; height: 50px; width: 100px; text-align: center;}
+.Header { text-align: center;}
+.Input-Block { margin: 20px; display: flex; justify-content: space-around; align-items: center}
+.Buttons-Block { display: flex; justify-content: center; margin: 10px 5px;}
+button { width: 200px; height: 45px; color: #fff; border-radius: 10px; }
+button:focus { outline: none; }
+.AddButton { background: #0c7cb7}
+.DeleteButton { background: #a1bdcc; margin-left: 10px;}
+.Submit { background: #42f4d9 }
+input { width: 100px; height: 30px;}

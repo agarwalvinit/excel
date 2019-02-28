@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="Header">A Basic Excel SpreadSheet</h1>
+    <table id="excel" cellpadding="0" cellspacing="0">
+
+    </table>
+    <div class="Input-Block">
+        <span>Rows: <input type="text" id="rows" placeholder="rows" value="10"></span>
+        <span>Columns: <input type="text" id="columns" placeholder="columns" value="12"></span>
+        <button class="Submit" onclick="globalData.init()">Submit</button>
+    </div>
+    <div class="Buttons-Block">
+        <button class="AddButton" onclick="globalData.addRow()">Add Row</button>
+        <button class="DeleteButton" onclick="globalData.removeRow()">Remove Row</button>
+    </div>
+    <div class="Buttons-Block">
+            <button class="AddButton" onclick="globalData.addColumn()">Add Column</button>
+        <button class="DeleteButton" onclick="globalData.removeColumn()">Remove Column</button>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
